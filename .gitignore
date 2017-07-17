@@ -13,7 +13,9 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
+coverage-electron
+instrumented
+report-electron
 
 # nyc test coverage
 .nyc_output
@@ -46,3 +48,8 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# App packaged
+dist
+release
+
+*.org

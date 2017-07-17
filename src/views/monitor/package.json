@@ -1,0 +1,25 @@
+{
+  "name": "kuni-mixer-bot-monitor",
+  "version": "1.0.0-alpha",
+  "description": "",
+  "author": "Theoretical Minds",
+  "companyName": "Theoretical Minds",
+  "license": "MIT",
+  "dependencies": {
+    "alt": "^0.18.6",
+    "fbjs": "^0.8.12",
+    "material-ui": "^0.18.6",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-addons-shallow-compare": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "standard": "^10.0.2"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}

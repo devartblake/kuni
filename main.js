@@ -15,7 +15,7 @@ const nativeImage = electron.nativeImage
 const ipcMain = electron.ipcMain
 const app = electron.app
 // Interactive handler
-const mixerConnect = require('./lib/interactive/mixer-interactive');
+const mixerConnect = require('./core/lib/interactive/mixer-interactive');
 
 const debug = /--debug/.test(process.argv[2])
 require('dotenv').config()
@@ -28,9 +28,13 @@ global.renderWindow = mainWindow
 
 
 const appVersion = require('./package.json').version
+const productName = require('./package.json').build.productName
+const copyRight = require('./package.json').build.copyright
 const options = {repo: 'devartblake/Kuni', currentVersion: appVersion}
 const updater = new GhReleases(options)
-console.log("Version " + appVersion)
+console.log("Version: " + appVersion)
+console.log("Product Name: " + productName)
+console.log("Copyright: " + copyRight)
 
 crashReporter.start({
   productName: 'Kuni Interactive Bot',

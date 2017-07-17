@@ -1,0 +1,6 @@
+module.exports = {
+    CLIENT_ID: 'CLIENT_ID',
+    CLIENT_TOKEN: 'CLIENT_TOKEN',
+    ANALYTICS_ID: 'ANLYTICS_ID',
+    CREATED_TIME: 'CREATED_TIME'
+}

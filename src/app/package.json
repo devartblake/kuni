@@ -1,0 +1,26 @@
+{
+  "name": "kuni-mixer-bot-app",
+  "version": "1.0.0-alpha",
+  "description": "",
+  "author": "Theoretical Minds",
+  "companyName": "Theoretical Minds",
+  "license": "MIT",
+  "dependencies": {
+    "address-parser": "^0.2.2",
+    "appdirectory": "^0.1.0",
+    "auto-launch": "^5.0.1",
+    "fs-extra": "^3.0.1",
+    "home-dir": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "unused-filename": "^1.0.0",
+    "uuid": "^3.1.0",
+    "winreg": "^1.2.4",
+    "yargs": "^8.0.2"
+  },
+  "optionalDependencies": {
+    "electron-windows-notifications": "1.1.13"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
+}

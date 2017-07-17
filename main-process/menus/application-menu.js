@@ -4,6 +4,19 @@ const Menu = electron.Menu
 const app = electron.app
 
 let template = [{
+  label: 'File',
+  submenu: [{
+    label: 'Private Session',
+    click: function (item, focusedWindow) {
+      if (focusedWindow) {
+        
+      }
+    }
+  },{
+    label: '&Exit',
+    role: 'close'
+  }]
+},{
   label: 'Edit',
   submenu: [{
     label: 'Undo',
