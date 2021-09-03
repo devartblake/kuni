@@ -166,7 +166,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^7.0.1",
     "glob": "^7.1.2",
-    "highlight.js": "^9.12.0",
+    "highlight.js": "^10.4.1",
     "history": "^4.7.2",
     "json-loader": "^0.5.7",
     "jsx-loader": "^0.13.2",
