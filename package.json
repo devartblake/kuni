@@ -149,7 +149,7 @@
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",
     "dotenv": "^6.0.0",
-    "electron": "^2.0.8",
+    "electron": "^9.4.0",
     "electron-builder": "^20.28.2",
     "electron-builder-squirrel-windows": "^20.28.0",
     "electron-debug": "^2.0.0",
